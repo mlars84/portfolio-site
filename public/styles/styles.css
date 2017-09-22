@@ -35,7 +35,7 @@
 }
 
 .inASuit {
-  border-radius: 30%;
+  border-radius: 5%;
   border: 5px solid #9ec7ac;
   filter: drop-shadow(16px 16px 20px #615252);
 }
