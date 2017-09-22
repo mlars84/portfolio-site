@@ -26,6 +26,12 @@
   height: 8em;
   width: 8em;
   padding: 1vmin 1vmin 1vmin 1vmin;
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+
+.techSkills:hover {
+  filter: grayscale(0%);
 }
 
 .inASuit {
@@ -36,6 +42,12 @@
 .php {
   height: 12vmin;
   width: 18vmin;
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+
+.php:hover {
+  filter: grayscale(0%);
 }
 
 .jumbotron {
@@ -95,6 +107,7 @@ a {
   /*color: #d67150;*/
   padding-right: 10rem;
   text-align: center;
+  transition: all .2s ease-in-out;
 }
 
 a:hover {
