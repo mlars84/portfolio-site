@@ -53,6 +53,11 @@
   filter: grayscale(0%);
 }
 
+.gifs {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
 .jumbotron {
   background-color: #9ec7ac;
   border-radius: 5px;
