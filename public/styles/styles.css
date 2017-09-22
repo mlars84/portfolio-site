@@ -37,6 +37,7 @@
 .inASuit {
   border-radius: 30%;
   border: 5px solid #9ec7ac;
+  filter: drop-shadow(16px 16px 20px #615252);
 }
 
 .php {
@@ -55,10 +56,13 @@
   /*opacity: .5;*/
   position: sticky;
   animation-play-state: paused;
+  filter: grayscale(100%);
+  transition: all .5s ease-in-out;
 }
 
 .jumbotron:hover {
   animation-play-state: running;
+  filter: grayscale(0%);
 }
 
 .jumboName {
