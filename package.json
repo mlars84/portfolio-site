@@ -20,14 +20,14 @@
     "bootstrap": "^3.3.7",
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
+    "global": "^4.3.2",
     "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
     "jquery": "^3.2.1",
     "medium-sdk": "0.0.4"
   },
   "repository": "https://github.com/mlars84/portfolio-site",
   "devDependencies": {
-    "gulp-clean-css": "^3.9.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify": "^1.0.0"
+    "gulp-minify-html": "^1.0.6"
   }
 }

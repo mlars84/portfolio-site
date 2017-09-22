@@ -5,6 +5,10 @@ const path = require('path');
 // call the function express() and puts new Express app into the app const
 const app = express();
 
+//require dotenv to hide github oauthToken
+require('dotenv').config()
+
+
 //creates port constiable with both heroku port and local port 3004
 const port = process.env.PORT || 3004;
 

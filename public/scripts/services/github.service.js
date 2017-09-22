@@ -1,6 +1,8 @@
 myApp.service('GithubAPI', function($http) {
   //Enter your token and username here:
-  const oauthToken = '011b18393b6bae7c5d4875fe395418ee45fa8f16';
+  // var OAUTH = process.env.OAUTH_TOKEN;
+
+  const oauthToken = '92146c7ee1539ab5783ce83c9a07c8f1e0eff7d2';
   const username = 'mlars84';
 
   //Call to Github API to fetch user's profile info
