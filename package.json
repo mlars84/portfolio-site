@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "node server/app.js"
+  },
+  "keywords": [],
+  "author": "Matt Larson <matt.a.larson@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "animate.css": "^3.5.2",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "grunt": "^1.0.1",
+    "jquery": "^3.2.1",
+    "medium-sdk": "0.0.4"
+  },
+  "repository": "https://github.com/mlars84/mlars_personal_site.git"
+}

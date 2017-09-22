@@ -1,0 +1,49 @@
+git   <div ng-controller="RepoController as rc">
+    <md-content>
+      <h1>Some gif samples of my work</h1>
+      <md-divider></md-divider>
+      <h2>Prime Solo Project: CareShare</h2>
+      <h4 class="bio">CareShare is a full-stack web application that allows users to
+        create profiles of elements in their life that need caring for (i.e.,
+        children, pets, plants, house, etc). The user chooses what to include
+        in the profiles and who to share/unshare them with.
+        <a href="http://caresharepsi.herokuapp.com/">CareShare</a></h4>
+        <br><br>
+        <img src="/images/CareShare.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
+        <br><br>
+        <h4>Tech Used:</h4>
+        <p>JavaScript | MongoDB | ExpressJS | AngularJS | Node.js | Passport.js | ImageStack file uploader | Angular-xeditable | Bootstrap 3 | Viewport Design | Grunt.js | Heroku | GitHub | Git</p>
+        <br><br>
+        <md-divider></md-divider>
+      <h2>Prime Group Project: STEP-UP Check-In</h2>
+      <h4 class="bio">STEP-UP Check-In allows STEP-UP interns to
+        receive a text message that prompts them to give weekly feedback on
+        their work experiences via their mobile devices.
+        Application administrators will be able to access and analyze this data
+        through the application dashboard and provide additional support to
+        students as needed based on their responses.
+        <a href="https://github.com/mlars84/step-up_check-in">STEP-UP Check-In repo</a></h4>
+        <h3>Creating Feedback form and Intern mobile walkthrough:</h3>
+        <img src="/images/part1_1.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
+        <h3>Intern data overview:</h3>
+        <img src="/images/part2.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
+        <h3>Import/Export view:</h3>
+        <img src="/images/part3.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
+        <h3>Admin View:</h3>
+        <img src="/images/part4.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
+        <br><br>
+        <h4>Tech Used:</h4>
+        <p>JavaScript | PostgreSQL | Express.JS | AngularJS | AngularJS Material | Node.js | Google OAuth 2.0 | csvtojson/json2csv | Chart.js | Viewport design | Twilio | Grunt.js | Heroku | GitHub | Git</p>
+        <br><br><br><br>
+    </md-content>
+    <br><br><br><br>
+    <h2>Selected <a class="prime" href="https://github.com/mlars84">GitHub</a> Public Repos:</h2><h4>(added here using the <a class="prime" href="https://developer.github.com/v3/">GitHub API</a>)</h4>
+    <br><br>
+    <div class='md-padding' layout-margin layout-padding style="text-align:center" layout="row" layout-wrap>
+    <md-card style="width: 350px;" ng-repeat="repos in rc.repos">
+      <h5>{{repos.name}}:</h5>
+      <a ng-href="{{repos.html_url}}">{{repos.html_url}}</a>
+      <h6>Created: {{repos.created_at}}</h6>
+    </md-card>
+  </div>
+  </div>

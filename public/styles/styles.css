@@ -1,0 +1,187 @@
+/*#toolbar {
+  background-color: #A9A9A9;
+}
+
+#toolText {
+  margin-left: 2vmin;
+}*/
+
+.navBar {
+  transition: all .3s ease-in-out;
+  font-size: 2vmin;
+}
+
+.navBar:hover {
+  font-size: 3vmin;
+  color: #FF3B3F;
+}
+
+.tech {
+  background-color: #f1e0ff;
+  flex: auto;
+  padding: 1em 2em;
+}
+
+.techSkills {
+  height: 8em;
+  width: 8em;
+  padding: 1vmin 1vmin 1vmin 1vmin;
+}
+
+.inASuit {
+  border-radius: 30%;
+  border: 5px solid #9ec7ac;
+}
+
+.php {
+  height: 12vmin;
+  width: 18vmin;
+}
+
+.jumbotron {
+  background-color: #9ec7ac;
+  /*opacity: .5;*/
+  position: sticky;
+  animation-play-state: paused;
+}
+
+.jumbotron:hover {
+  animation-play-state: running;
+}
+
+.jumboName {
+  margin-left: 2rem;
+  /*font-family: 'Arvo', serif;*/
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #615252;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', serif;
+  /*text-align: center;*/
+  /*color: #615252;*/
+}
+
+img {
+  text-align: center;
+}
+
+.prime {
+  padding: 0;
+  margin: 0;
+}
+
+#photo1 {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #615252;
+  margin: auto;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+  text-align: center;
+}
+
+.bio {
+  text-align: left;
+  margin-left: 15vmin;
+  margin-right: 15vmin;
+  flex: auto;
+}
+
+a {
+  /*font-family: 'Arvo', serif;*/
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  /*color: #d67150;*/
+  padding-right: 10rem;
+  text-align: center;
+}
+
+a:hover {
+  color: #FF3B3F;
+}
+
+p {
+  /*color: #615252;*/
+}
+
+body, html {
+  /*background-color: #d3d3d5;*/
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+md-card, md-content {
+  /*background-color: #A9A9A9;*/
+  opacity: .9;
+}
+
+/*about*/
+.contactInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactInfo a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contactInfo li.phone a {
+  background-image: url('/images/phone.svg.png');
+}
+
+.contactInfo li.linkedIn a {
+  background-image: url('/images/linkedIn.svg');
+}
+
+.contactInfo li.medium a {
+  background-image: url('/images/medium.png');
+}
+
+.contactInfo li.gitHub a {
+  background-image: url('/images/github.png');
+}
+
+.contactInfo li.email a {
+  background-image: url('/images/New_Logo_Gmail.svg.png');
+}
+
+.continuedLearning {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.continuedLearning a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.continuedLearning li.thinking a {
+  background-image: url('/images/thinking.png');
+}
+
+/*footer {
+  background-color: #c6e48b;
+  opacity: .5;
+}*/
+
+/*.container {
+  border: 1px solid black;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: #c6e48b;
+}*/

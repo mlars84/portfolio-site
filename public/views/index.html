@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=.05">
+  <title>Matt Larson site</title>
+  <!-- Angular -->
+  <script src="vendors/angular.min.js"></script>
+  <script src="vendors/angular-material.min.js" charset="utf-8"></script>
+  <script src="vendors/angular-route.min.js"></script>
+  <script src="vendors/angular-animate.min.js" charset="utf-8"></script>
+  <script src="vendors/angular-aria.min.js" charset="utf-8"></script>
+
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <script src="scripts/services/github.service.js" charset="utf-8"></script>
+  <script src="scripts/services/medium.service.js" charset="utf-8"></script>
+  <script src="scripts/controllers/profile.ctlr.js" charset="utf-8"></script>
+  <script src="scripts/controllers/repo.ctrl.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="vendors/angular-material.min.css">
+  <link rel="stylesheet" href="vendors/animate.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <base href="/">
+</head>
+<a name="top"></a>
+<body ng-app="myApp">
+  <div class="jumbotron animated infinite pulse">
+    <img src="images/mlarslogo.png" alt="" style="height:20%; width:20%">
+    <!-- <h1 style="color: #f4f4f4;" id="toolText">&nbsp&nbspmatthewLarson/dev&nbsp&nbsp</h1> -->
+  </div>
+  <!-- <md-toolbar id="toolbar" layout="column">
+  </md-toolbar> -->
+  <br>
+  <div>
+    <md-nav-bar class="muted pull-right">
+      <a class="navBar animated fadeInUpBig" href="/">Home</a>
+      <a class="navBar animated fadeInUpBig" href="#bio">Bio</a>
+      <a class="navBar animated fadeInUpBig" href="#skills">Skills</a>
+      <a class="navBar animated fadeInUpBig" href="/work">Work</a>
+      <a class="navBar animated fadeInUpBig" href="/about">Contact</a>
+    </md-nav-bar>
+    <br><br>
+  </div>
+  <br/>
+</body>
+<ng-view></ng-view>
+<footer>
+  <div class="container">
+  <div class="row">
+  <hr>
+    <div class="col-lg-12">
+      <div class="col-md-8">
+        <!-- <a href="#">Terms of Service</a> | <a href="#">Privacy</a>     -->
+      </div>
+      <div class="col-md-4">
+        <span><p class="muted pull-right">© 2017 Matthew Larson. All rights reserved</p></span>
+      </div>
+      <a href="#top">Back to Top</a>
+      <br><br>
+    </div>
+  </div>
+</div>
+</footer>
+</html>
