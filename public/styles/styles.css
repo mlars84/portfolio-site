@@ -6,60 +6,8 @@
   margin-left: 2vmin;
 }*/
 
-.navBar {
-  transition: all .3s ease-in-out;
-  font-size: 2vmin;
-}
-
-.navBar:hover {
-  font-size: 3vmin;
-  color: #FF3B3F;
-}
-
-.tech {
-  /*background-color: #f1e0ff;*/
-  background-color: #9ec7ac;
-  border-radius: 5px;
-  flex: auto;
-  padding: 1em 2em;
-}
-
-.techSkills {
-  height: 8em;
-  width: 8em;
-  padding: 1vmin 1vmin 1vmin 1vmin;
-  filter: grayscale(100%);
-  transition: filter .3s ease-in-out;
-}
-
-.techSkills:hover {
-  filter: grayscale(0%);
-}
-
-.inASuit {
-  border-radius: 5%;
-  border: 5px solid #9ec7ac;
-  /*filter: drop-shadow(16px 16px 20px #615252);*/
-}
-
-.php {
-  height: 12vmin;
-  width: 18vmin;
-  filter: grayscale(100%);
-  transition: filter .3s ease-in-out;
-}
-
-.php:hover {
-  filter: grayscale(0%);
-}
-
-.gifs {
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
 .jumbotron {
-  background-color: #9ec7ac;
+  background-color: #98c051;
   border-radius: 5px;
   /*opacity: .5;*/
   position: sticky;
@@ -81,6 +29,98 @@
   text-align: center;
 }
 
+.navLinks {
+  transition: all 1s ease-in-out;
+  font-size: 2vmin;
+}
+
+.navBar:active {
+  color: white !important;
+}
+
+.navLinks:hover {
+  font-size: 3vmin;
+  color: whites;
+  filter: blur(75px);
+}
+
+.newText {
+  visibility: hidden;
+}
+
+.newText:hover {
+  visibility: visible;
+}
+
+.name {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 10s linear 0s infinite alternate;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1500px;
+  }
+}
+
+.cursive {
+  font-family: 'Sacramento', cursive;
+}
+
+.tech {
+  /*background-color: #f1e0ff;*/
+  background-color: #98c051;
+  border-radius: 5px;
+  flex: auto;
+  padding: 1em 2em;
+}
+
+.techSkills {
+  display: flex;
+  justify-content: space-around;
+  height: 8em;
+  width: 8em;
+  padding: 1vmin 1vmin 1vmin 1vmin;
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+
+.techSkills:hover {
+  filter: grayscale(0%);
+}
+
+.php {
+  display: flex;
+  justify-content: space-around;
+  height: 8em;
+  width: 12em;
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+
+.php:hover {
+  filter: grayscale(0%);
+}
+
+.gifs {
+  border: 2px solid #12213f;
+  border-radius: 5px;
+}
+
+.inASuit {
+  border-radius: 5%;
+  border: 5px solid #9ec7ac;
+  /*filter: drop-shadow(16px 16px 20px #615252);*/
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Arvo', serif;
   /*text-align: center;*/
@@ -99,7 +139,7 @@ img {
 #photo1 {
   height: 100%;
   width: 100%;
-  border: 2px solid #615252;
+  border-radius: 5px;
   margin: auto;
   margin-top: 5vmin;
   margin-bottom: 5vmin;
@@ -116,14 +156,14 @@ img {
 a {
   /*font-family: 'Arvo', serif;*/
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  /*color: #d67150;*/
-  padding-right: 10rem;
+  color: #d67150;
+  padding-right: 5rem;
   text-align: center;
   transition: all .2s ease-in-out;
 }
 
 a:hover {
-  color: #e0313c;
+  color: #98c051;
 }
 
 p {
@@ -132,12 +172,15 @@ p {
 
 body, html {
   /*background-color: #d3d3d5;*/
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  /*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+  font-family: -apple-system, BlinkMacSystemFont,
+  Seqoe UI, Roboto, Oxygen-Sans,
+  Cantarell, Helvetica Neue, sans-serif;
   padding-left: 5rem;
   padding-right: 5rem;
   text-align: center;
   /*background-color: #f4f4f4;*/
-  background-color: black;
+  background-color: #12213f;
   color: white;
 }
 
@@ -163,11 +206,11 @@ md-card, md-content {
 }
 
 .contactInfo li.phone a {
-  background-image: url('/images/phone.svg.png');
+  background-image: url('/images/whitePhone.png');
 }
 
 .contactInfo li.linkedIn a {
-  background-image: url('/images/linkedIn.svg');
+  background-image: url('/images/linkedIn.png');
 }
 
 .contactInfo li.medium a {
@@ -175,11 +218,11 @@ md-card, md-content {
 }
 
 .contactInfo li.gitHub a {
-  background-image: url('/images/github.png');
+  background-image: url('/images/Octocat.png');
 }
 
 .contactInfo li.email a {
-  background-image: url('/images/New_Logo_Gmail.svg.png');
+  background-image: url('/images/gmail.ico');
 }
 
 .continuedLearning {

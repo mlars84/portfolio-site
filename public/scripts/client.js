@@ -15,8 +15,8 @@ const myApp = angular.module('myApp', ['ngRoute', 'ngMaterial']);
     }).when('/work', {
       templateUrl: '/views/pages/work.html',
       controller: 'RepoController as rc'
-    }).when('/about', {
-      templateUrl: '/views/pages/about.html',
+    }).when('/contact', {
+      templateUrl: '/views/pages/contact.html',
       controller: 'ProfileController as pc'
     }).otherwise({redirectTo: '/'});
 
