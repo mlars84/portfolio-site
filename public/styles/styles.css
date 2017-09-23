@@ -89,7 +89,7 @@
   background-color: #98c051;
   border-radius: 5px;
   flex: auto;
-  padding: 1em 2em;
+  padding: 1em 3em auto;
 }
 
 .techSkills {
