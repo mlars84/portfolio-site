@@ -10,7 +10,6 @@
   background-color: #98c051;
   border-radius: 5px;
   /*opacity: .5;*/
-  position: sticky;
   /*animation-play-state: paused;
   filter: grayscale(100%);
   transition: all .5s ease-in-out;*/
@@ -32,16 +31,27 @@
 .navLinks {
   transition: all 1s ease-in-out;
   font-size: 2vmin;
-}
-
-.navBar:active {
-  color: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border: 1px solid white !important;
+  position: absolute !important;
 }
 
 .navLinks:hover {
   font-size: 3vmin;
   color: whites;
   filter: blur(75px);
+}
+
+.navBar {
+  display: flex !important;
+  flex-direction: column !important;
+  border: 1px solid white !important;
+  position: absolute !important;
+}
+
+.navBar:active {
+  color: white !important;
 }
 
 .newText {
