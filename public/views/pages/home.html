@@ -14,8 +14,8 @@
 <md-divider></md-divider>
 <div class="">
   <a name="skills"></a>
-  <h1 class="cursive" >Technical Skills</h1>
-  <img class="animated infinite pulse" src="/images/mean.png" style="height:30%; width:30%;" alt="">
+  <h1 class="cursive" >Technical Skills</h1><br><br>
+  <img class="animated infinite pulse" src="/images/mean.png" style="height:30%; width:30%;" alt=""><br><br>
   <h4>The <a class="prime" href="http://mean.io/">MEAN Stack</a> is a JavaScript stack comprised of MongoDB, Express.js, AngularJS and Node.js.</h4>
   <br><br>
   <div class="tech row">
@@ -43,98 +43,10 @@
   <br><br>
   <hr><br><br>
   <img src="/images/inASuit.jpg" class="inASuit animated fadeIn" style="height:30%; width:30%;" alt="">
-  <br><br><br><br><br><br>
+  <br><br>
 </div>
-<a name="work"></a><br><br>
-<div ng-controller="RepoController as rc">
-  <md-content>
-    <h1>Some gif samples of my work</h1>
-    <md-divider></md-divider>
-    <h2>Prime Solo Project: CareShare</h2>
-    <h4 class="bio">CareShare is a full-stack web application that allows users to
-      create profiles of elements in their life that need caring for (i.e.,
-      children, pets, plants, house, etc). The user chooses what to include
-      in the profiles and who to share/unshare them with.
-      <a href="http://caresharepsi.herokuapp.com/">CareShare</a></h4>
-      <br><br>
-      <img class="gifs" src="/images/CareShare.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
-      <br><br>
-      <h4>Tech Used:</h4>
-      <p>JavaScript | MongoDB | ExpressJS | AngularJS | Node.js | Passport.js | ImageStack file uploader | Angular-xeditable | Bootstrap 3 | Viewport Design | Grunt.js | Heroku | GitHub | Git</p>
-      <br><br>
-      <md-divider></md-divider>
-      <h2>Prime Group Project: STEP-UP Check-In</h2>
-      <h4 class="bio">STEP-UP Check-In allows STEP-UP interns to
-        receive a text message that prompts them to give weekly feedback on
-        their work experiences via their mobile devices.
-        Application administrators will be able to access and analyze this data
-        through the application dashboard and provide additional support to
-        students as needed based on their responses.
-        <a href="https://github.com/mlars84/step-up_check-in">STEP-UP Check-In repo</a></h4>
-        <h3>Creating Feedback form and Intern mobile walkthrough:</h3>
-        <img class="gifs" src="/images/part1_1.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
-        <h3>Intern data overview:</h3>
-        <img class="gifs" src="/images/part2.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
-        <h3>Import/Export view:</h3>
-        <img class="gifs" src="/images/part3.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
-        <h3>Admin View:</h3>
-        <img class="gifs" src="/images/part4.gif" alt="HTML5 Icon" style="width:60%;height:60%;">
-        <br><br>
-        <h4>Tech Used:</h4>
-        <p>JavaScript | PostgreSQL | Express.JS | AngularJS | AngularJS Material | Node.js | Google OAuth 2.0 | csvtojson/json2csv | Chart.js | Viewport design | Twilio | Grunt.js | Heroku | GitHub | Git</p>
-        <br><br><br><br>
-      </md-content>
-      <br><br><hr><br><br>
-      <h2>Selected <a class="prime" href="https://github.com/mlars84">GitHub</a> Public Repos:</h2><h4>(added here using the <a class="prime" href="https://developer.github.com/v3/">GitHub API</a>)</h4>
-      <br><br>
-      <div class='md-padding' layout-margin layout-padding style="text-align:center" layout="row" layout-wrap>
-        <md-card style="width: 350px;" ng-repeat="repos in rc.repos">
-          <h5>{{repos.name}}:</h5>
-          <a ng-href="{{repos.html_url}}">{{repos.html_url}}</a>
-          <h6>Created: {{repos.created_at}}</h6>
-        </md-card>
-      </div>
-    </div>
-    <a name="contact"></a>
-    <br><br><hr><br>
-    <div class="container" ng-controller="ProfileController as pc">
-      <div class="row">
-        <div class="col-sm-6">
-          <h2 class="cursive" style="text-align:left">Please feel free to get in touch . . . </h2><hr>
-          <ul class="contactInfo">
-            <li class="phone"><a href="tel:612-251-6818">612-251-6818</a></li>
-            <li class="linkedIn"><a href="https://www.linkedin.com/in/mattalarson">LinkedIn</a></li>
-            <li class="medium"><a href="https://medium.com/@mlars84">Medium</a></li>
-            <li class="gitHub"><a href="https://github.com/mlars84">GitHub</a></li>
-            <li class="email"><a href="mailto:matt.a.larson@gmail.com?Subject=Hello%20again" target="_top">Email</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <!-- <md-content style="text-align:left" layout-margin layout-padding> -->
-
-          <div class="col-md-12">
-            <img class ="animated fadeIn" src="images/1.5mb.jpg" id="photo1" alt="Photo Loading . . . ">
-          </div>
-          <!-- </md-content> -->
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h2 class="cursive">Some stuff I'm currently learning => </h2>
-          <br><br>
-          <ul class="continuedLearning">
-            <li class="thinking"><a href="https://github.com/mlars84/meet-irl">AngularJS with Karma/Jasmine testing</a></li>
-            <li class="thinking"><a href="https://github.com/mlars84/github-battle">React-Fundamentals</a></li>
-            <li class="thinking"><a href="https://github.com/mlars84/react-es2017">React: ES6, ES2016, and Beyond</a></li>
-            <li class="thinking"><a href="https://github.com/mlars84/react-lifecycles">React: Lifecycles</a></li>
-            <li class="thinking"><a href="https://github.com/mlars84/notes/tree/master/Learning%20Notes">Markdown Notes ( lots more in here )</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <br><br>
-    <div class="thisSite">
-      <h4>This site was built with JavaScript, HTML5, CSS3, AngularJS, Angular Material, Bootstrap3, Node.js, Express.js, Yarn and Gulp.</h4>
-    </div>
+<hr><br><br>
+<div class="thisSite">
+  <h4>This site was built with JavaScript, HTML5, CSS3, AngularJS, Angular Material, Bootstrap3, Node.js, Express.js, Yarn and Gulp.</h4>
+</div>
+<br><br>
