@@ -28,6 +28,7 @@
   },
   "repository": "https://github.com/mlars84/portfolio-site",
   "devDependencies": {
-    "gulp-minify-html": "^1.0.6"
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^3.0.0"
   }
 }
