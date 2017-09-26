@@ -9,6 +9,7 @@
 .jumbotron {
   background-color: #98c051;
   border-radius: 5px;
+  padding-bottom: 1px;
   /*opacity: .5;*/
   /*animation-play-state: paused;
   filter: grayscale(100%);
