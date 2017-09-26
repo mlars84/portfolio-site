@@ -14,5 +14,5 @@ gulp.task('minify-css', () => {
       console.log(details.name + ': ' + details.stats.originalSize);
       console.log(details.name + ': ' + details.stats.minifiedSize);
     }))
-  .pipe(gulp.dest('build'));
+  .pipe(gulp.dest('public/build'));
 });

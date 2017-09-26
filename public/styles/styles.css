@@ -31,10 +31,6 @@
 .navLinks {
   transition: all 1s ease-in-out;
   font-size: 2vmin;
-  display: flex !important;
-  flex-direction: column !important;
-  border: 1px solid white !important;
-  position: absolute !important;
 }
 
 .navLinks:hover {
@@ -44,14 +40,11 @@
 }
 
 .navBar {
-  display: flex !important;
-  flex-direction: column !important;
-  border: 1px solid white !important;
-  position: absolute !important;
+  transition: all .3s ease-in-out;
 }
 
-.navBar:active {
-  color: white !important;
+.navBar:hover {
+  font-size: 3vmin;
 }
 
 .newText {
@@ -67,8 +60,8 @@
   color: white;
   display: inline-block;
   overflow: hidden;
-  white-space: nowrap;
-  animation: type 10s linear 0s infinite alternate;
+  /*white-space: nowrap;*/
+  animation: type 2s linear 0s;
 }
 
 @keyframes type {
@@ -76,7 +69,7 @@
     width: 0;
   }
   to {
-    width: 1500px;
+    width: 500px;
   }
 }
 
@@ -89,7 +82,7 @@
   background-color: #98c051;
   border-radius: 5px;
   flex: auto;
-  padding: 1em 3em auto;
+  padding: 2em 2em 2em 2em;
 }
 
 .techSkills {
@@ -109,8 +102,9 @@
 .php {
   display: flex;
   justify-content: space-around;
-  height: 8em;
-  width: 12em;
+  height: 7em;
+  width: 9em;*/
+  max-width: 9em;
   filter: grayscale(100%);
   transition: filter .3s ease-in-out;
 }
@@ -167,7 +161,7 @@ a {
   /*font-family: 'Arvo', serif;*/
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: #d67150;
-  padding-right: 5rem;
+  padding-right: 10rem;
   text-align: center;
   transition: all .2s ease-in-out;
 }
