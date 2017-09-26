@@ -108,10 +108,12 @@
   max-width: 9em;
   filter: grayscale(100%);
   transition: filter .3s ease-in-out;
+  opacity: .5;
 }
 
 .php:hover {
   filter: grayscale(0%);
+  opacity: 1;
 }
 
 .gifs {
