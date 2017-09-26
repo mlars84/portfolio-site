@@ -60,7 +60,7 @@
   color: white;
   display: inline-block;
   overflow: hidden;
-  /*white-space: nowrap;*/
+  white-space: nowrap;
   animation: type 2s linear 0s;
 }
 
