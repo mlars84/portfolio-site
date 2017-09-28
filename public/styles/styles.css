@@ -173,8 +173,8 @@ a:hover {
   color: #98c051;
 }
 
-a:active {
-  color: white;
+a:visited {
+  color: #d67150;
 }
 
 p {
