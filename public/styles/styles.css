@@ -303,6 +303,11 @@ md-card, md-content {
   }
 }
 
+.backToTop {
+  display: flex;
+  justify-content: center;
+}
+
 .contactContainer {
   /*background-color: #5091af;*/
   padding: 2em 2em 2em 2em;
