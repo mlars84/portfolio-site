@@ -25,7 +25,8 @@
     "graphiql": "^0.11.5",
     "gulp": "^3.9.1",
     "medium-sdk": "0.0.4",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0"
   },
   "repository": "https://github.com/mlars84/portfolio-site",
   "devDependencies": {
