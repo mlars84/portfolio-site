@@ -25,7 +25,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .navLinks:hover {
   font-size: 3vmin;
-  color: whites;
+  color: white;
   filter: blur(75px);
 }
 
@@ -44,6 +44,35 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .newText:hover {
   visibility: visible;
 }
+
+.welcome-container {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  display: flex;
+  height: 1vh;
+  align-items: baseline;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.welcome {
+  border-radius: 50px;
+  padding: .5em .5em .5em .5em;
+  background: #98c051;
+  font-weight: bold;
+}
+
+.welcome1 {font-size: 40px; color:#3498db;}
+.welcome2 {color: #e67e22;}
+.welcome3 {font-size: 80px; color: #9b59b6;}
+.welcome4 {color: #1abc9c;}
+.welcome5 {font-size: 60px; color: #34495e;}
+.welcome6 {color: #e74c3c;}
+.welcome7 {font-size: 100px; color: #f1c40f;}
 
 .name {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
