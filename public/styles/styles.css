@@ -66,13 +66,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   font-weight: bold;
 }
 
-.welcome1 {font-size: 40px; color:#3498db;}
-.welcome2 {color: #e67e22;}
-.welcome3 {font-size: 80px; color: #9b59b6;}
-.welcome4 {color: #1abc9c;}
-.welcome5 {font-size: 60px; color: #34495e;}
-.welcome6 {color: #e74c3c;}
-.welcome7 {font-size: 100px; color: #f1c40f;}
+.welcome1 {font-size: 50px; color: white;}
+.welcome2 {font-size: 40px; color: black;}
+.welcome3 {font-size: 75px; color: white;}
+.welcome4 {font-size: 30px; color: black;}
+.welcome5 {font-size: 60px; color: white;}
+.welcome6 {font-size: 35px; color: black;}
+.welcome7 {font-size: 70px; color: wthie;}
 
 .name {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
