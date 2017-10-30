@@ -18,9 +18,9 @@ const myApp = angular.module('myApp', ['ngRoute', 'ngMaterial']);
     }).when('/contact', {
       templateUrl: '/views/pages/contact.html',
       controller: 'ProfileController as pc'
-    }).when('/photos', {
-      templateUrl: '/views/pages/photos.html',
-      controller: 'MediaController as mc'
+    }).when('/blog', {
+      templateUrl: '/views/pages/blog.html',
+      controller: 'BlogController as bc'
     }).otherwise({redirectTo: '/'});
   },
   ]);
