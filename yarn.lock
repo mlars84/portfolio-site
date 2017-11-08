@@ -38,7 +38,7 @@ angular-material@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/angular-material/-/angular-material-1.1.4.tgz#27de35646f54ccd320080af0c708e1b438af87f6"
 
-angular@^1.6.5:
+angular@^1.2.0, angular@^1.6.5:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.6.tgz#fd5a3cfb437ce382d854ee01120797978527cb64"
 
@@ -1600,6 +1600,12 @@ ncname@1.0.x:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+
+ngSmoothScroll@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ngSmoothScroll/-/ngSmoothScroll-2.0.1.tgz#c4909acd3320a78c5cda64c426df18f6bc00ac73"
+  dependencies:
+    angular "^1.2.0"
 
 no-case@^2.2.0:
   version "2.3.2"

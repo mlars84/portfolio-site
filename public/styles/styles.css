@@ -19,22 +19,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .navLinks {
-  transition: all 1s ease-in-out;
+  transition: all .2s ease-in-out;
   font-size: 2vmin;
 }
 
 .navLinks:hover {
   font-size: 3vmin;
   color: white;
-  filter: blur(75px);
-}
-
-.navBar {
-  transition: all .3s ease-in-out;
-}
-
-.navBar:hover {
-  font-size: 3vmin;
+  filter: blur(3px);
 }
 
 .newText {
@@ -192,10 +184,6 @@ a:visited {
   color: #d67150;
 }
 
-p {
-  /*color: #615252;*/
-}
-
 body, html {
   font-family: -apple-system, BlinkMacSystemFont,
   Seqoe UI, Roboto, Oxygen-Sans,
@@ -265,12 +253,6 @@ md-card, md-content {
 .continuedLearning li.thinking a {
   background-image: url('/images/thinking.png');
 }
-
-/* .container {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 1rem;
-} */
 
 .responsive-image {
   max-width: 100%;
