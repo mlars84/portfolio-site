@@ -26,9 +26,12 @@ myApp.service('MediumAPI', function($http) {
       method: 'GET',
       url: 'https://medium.com/feed/@mlars84'
       }
-    ).then((res) => {
-      console.log('res.data:', res.data);
-      return res.data;
-    });
-  };
-});
+    ).then(res => {
+      console.log('res.data:', res.data)
+      return res.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+  }
+})

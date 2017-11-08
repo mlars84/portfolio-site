@@ -1,15 +1,18 @@
 myApp.controller('BlogController', ['MediumAPI', function(MediumAPI, $http) {
-  console.log('in BlogController');
+  console.log('in BlogController')
 
-  const vm = this;
-  vm.posts = [];
+  const vm = this
+  vm.posts = []
 
   vm.getFeed = () => {
     $http({
       method: 'GET',
       url: '/feed'
-    }).then((res) => {
+    }).then(res => {
       console.log(res.data)
+    })
+    .catch(err => {
+      console.log(err)
     })
   }
 
@@ -21,4 +24,4 @@ myApp.controller('BlogController', ['MediumAPI', function(MediumAPI, $http) {
   // }; //end postsFunc
   // vm.postsFunc();
 
-}]); //end BlogController
+}]) //end BlogController

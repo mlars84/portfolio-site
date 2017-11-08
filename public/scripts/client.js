@@ -1,12 +1,11 @@
-const myApp = angular.module('myApp', ['ngRoute', 'ngMaterial']);
-
-  myApp.config(['$routeProvider', '$locationProvider', '$mdThemingProvider', function($routeProvider, $locationProvider, $mdThemingProvider) {
-    $locationProvider.html5Mode(true);
+const myApp = angular.module('myApp', ['ngRoute', 'ngMaterial'])  
+  .config(['$routeProvider', '$locationProvider', '$mdThemingProvider', function($routeProvider, $locationProvider, $mdThemingProvider) {
+    $locationProvider.html5Mode(true)
 
     //tab palette for angular material
     $mdThemingProvider
       .theme('default')
-      .accentPalette('orange');
+      .accentPalette('orange')
 
     $routeProvider
     .when('/', {
@@ -21,6 +20,6 @@ const myApp = angular.module('myApp', ['ngRoute', 'ngMaterial']);
     }).when('/blog', {
       templateUrl: '/views/pages/blog.html',
       controller: 'BlogController as bc'
-    }).otherwise({redirectTo: '/'});
+    }).otherwise({redirectTo: '/'})
   },
-  ]);
+  ])
