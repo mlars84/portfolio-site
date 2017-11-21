@@ -277,7 +277,7 @@ md-card, md-content {
   margin: 1rem;
 }
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
   h1, h2, h3, h4, h5, h6, p {
     font-size: 4em;
   }
@@ -307,7 +307,7 @@ md-card, md-content {
 
 @media screen and (min-width: 1200px) {
   
-}
+} */
 
 @media screen and (min-width: 600px) {
   .grid {
