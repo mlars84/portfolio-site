@@ -49,7 +49,7 @@
       <br><br><br><br>
       <h2>Select <a class="prime" href="https://github.com/mlars84">GitHub</a> Public Repos:</h2><h4>(added here using the <a class="prime" href="https://developer.github.com/v3/">GitHub API</a>)</h4>
       <br><br>
-      <div class='md-padding' layout-margin layout-padding style="text-align:center; margin:0 2.3em 0 2.3em;" layout="row" layout-align="start right" layout-wrap>
+      <div class='repos md-padding' layout-margin layout-padding style="text-align:center; margin:0 2.3em 0 2.3em;" layout="row" layout-align="start right" layout-wrap>
         <md-card style="width: 350px; text-align:center" ng-repeat="repos in rc.repos">
           <h5>{{repos.name}}:</h5>
           <a style="font-size:.875em; padding: 2px 2px 2px 2px;"ng-href="{{repos.html_url}}">{{repos.html_url}}</a>
