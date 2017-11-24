@@ -71,8 +71,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .welcome7 {font-size: 70px; color: wthie;}
 
 .name {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  color: white;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
