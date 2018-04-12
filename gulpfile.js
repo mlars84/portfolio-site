@@ -2,6 +2,8 @@ let gulp = require('gulp')
 let htmlmin = require('gulp-htmlmin')
 let cleanCSS = require('gulp-clean-css')
 
+gulp.task('default')
+
 gulp.task('minify', () => {
   return gulp.src('public/views/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))

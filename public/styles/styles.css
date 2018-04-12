@@ -201,8 +201,8 @@ body, html {
   padding-left: 5rem;
   padding-right: 5rem;
   text-align: center;
-  background-color: #12213f;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 md-card, md-content {
